@@ -30,4 +30,8 @@ contract ZombieFactory {
         _createZombie(_name, randDna);
     }
 
+    function getZombiesSize() public view returns (uint) {
+        return zombies.length;
+    }
+
 }
