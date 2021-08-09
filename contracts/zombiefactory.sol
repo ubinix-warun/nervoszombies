@@ -34,4 +34,8 @@ contract ZombieFactory {
         return zombies.length;
     }
 
+    function getLatestZombie() public view returns (Zombie memory) {
+        return zombies[zombies.length-1];
+    }
+
 }

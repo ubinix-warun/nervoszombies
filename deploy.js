@@ -25,7 +25,7 @@ for(const filename of filenames)
 if(compiledContractArtifact === null)
     throw new Error(`Unable to find contract file: ${contractName}`);
 
-const DEPLOYER_PRIVATE_KEY = '...'; // Replace this with your Ethereum private key with funds on Layer 2.
+const DEPLOYER_PRIVATE_KEY = '0x529ccd134b74f5d83b056c0a464b301b6aa49fe207871c7da574a230a89dd583'; // Replace this with your Ethereum private key with funds on Layer 2.
 
 const GODWOKEN_RPC_URL = 'http://godwoken-testnet-web3-rpc.ckbapp.dev';
 const polyjuiceConfig = {
